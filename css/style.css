@@ -1,0 +1,783 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto Flex", sans-serif;
+    line-height: 1;
+    font-variation-settings: 'GRAD' 0, 'XOPQ' 96, 'XTRA' 510, 'YOPQ' 70, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 544, 'YTUC' 712, 'Slant' 0, 'Width' 88;
+    background-color: #F5F9FE;
+}
+
+b {
+    font-weight: 700;
+}
+
+h2{
+    font-size: 44px;
+    line-height: 64px;
+    letter-spacing: 1.6px;
+    color: #2D2E2E;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+h2 span {
+    color: #0C93F4;
+}
+
+h4 {
+    color: #0C93F4;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h5 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+a {
+    color: #0C93F4;
+    border-bottom: 1px solid #0C93F4;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    text-decoration: none;
+    font-family: "Roboto Flex", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+a:hover {
+    border-bottom: 1px solid transparent;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.wrapper {
+    padding: 0 30px;
+    max-width: 1630px;
+    margin: 0 auto;
+}
+
+.help-section {
+    padding: 80px 0;
+    background-image: url(../img/lines.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.help-section__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 42px;
+}
+
+.help-section__card li {
+    width: calc(33.33% - 24px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 40px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid #C3E1FA;
+}
+
+.help-section__card li h5 {
+    color: #0C93F4;
+    width: calc(100% - 72px);
+    padding-left: 24px;
+}
+
+.help-section__card li p {
+    color: #5F6061;
+    padding-top: 15px;
+}
+
+.help-section__icon {
+    width: 72px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.help-section__icon img {
+    max-width: 100%;
+}
+
+.help-section__job-advertisemen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.help-section__job-advertisemen{
+    color: #77838E;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-right: 10px;
+    padding-top: 24px;
+}
+
+.help-section__job-advertisemen a {
+    margin-left: 10px;
+}
+
+.benefits-section {
+    padding: 80px 180px 80px 180px;
+    background-color: white;
+    border-radius: 24px 24px 0 0;
+}
+
+.benefits-section__patform h3 {
+    color: #2D2E2E;
+    width: 50%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.benefits-section__patform h3 span {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    display: block;
+}
+
+.benefits-section__patform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 106px 38px 106px;
+}
+
+.benefits-section__patform p {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 74px;
+    color: #5F6061;
+}
+
+.benefits-section__list {
+    padding: 60px;
+    background-color: #EBF8FF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 24px;
+    margin: 0 -20px;
+}
+
+.benefits-section__list h5 {
+    color: #2D2E2E;
+    padding-bottom: 8px;
+}
+
+.benefits-section__list p {
+    color: #474B56;
+}
+
+.benefits-section__list li {
+    width: 33.3333%;
+    padding: 0 82px;
+    position: relative;
+}
+
+.benefits-section__list li::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #2D2E2E;
+    height: 48px;
+    width: 2px;
+    right: 0;
+    top: 50%;
+    margin-top: -24px;
+}
+
+.benefits-section__list li:nth-last-of-type(1)::after{
+    display: none;
+}
+
+.promotion-section {
+    background-color: white;
+    padding-top: 84px;
+    border-radius: 0 0 24px 24px;
+}
+
+.promotion-section__description {
+    padding-right: 70px;
+}
+
+.promotion-section__description p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #474B56;
+    letter-spacing: -0.2px;
+    padding-top: 16px;
+}
+
+.promotion-section__picture {
+    width: calc(100% - 760px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 87px;
+}
+.promotion-section__picture img {
+    max-width: 100%;
+}
+
+.promotion-section__list > li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 170px;
+}
+
+.promotion-section__list li:nth-of-type(2n){
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+}
+
+.promotion-section__list li:nth-of-type(2n) .promotion-section__box {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+}
+
+.promotion-section__list li:nth-of-type(2n) .promotion-section__picture {
+    padding: 0 112px 0 0;
+}
+
+.promotion-section__list li:nth-of-type(2n) .promotion-section__description {
+    padding: 0 20px 0 70px;
+}
+
+.promotion-section__number {
+    width: 120px;
+    min-width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #0C93F4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "Roboto Flex", sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+.promotion-section__number span {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 9px;
+}
+
+.promotion-section__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 760px;
+}
+
+.promotion-section__description ul {
+    color: #474B56;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Roboto Flex", sans-serif;
+    padding-top: 20px;
+}
+
+.promotion-section__description li {
+    padding-bottom: 0;
+    padding-left: 26px;
+    position: relative;
+}
+
+.promotion-section__description li::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #474B56;
+    position: absolute;
+    left: 11px;
+    top: 11px;
+}
+
+.promotion-section__list {
+    position: relative;
+}
+
+.promotion-section__list::before {
+    content: '';
+    display: block;
+    background-image: url('../img/line.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 154px;
+    bottom: 0;
+    top: 130px;
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+}
+
+.section-company {
+    background-image: url(../img/lines2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 74px 0 80px 0;
+}
+
+.section-company p {
+    font-size: 20px;
+    color: #2D2E2E;
+    line-height: 28px;
+}
+
+.section-company__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 42px;
+}
+
+.section-company__list li {
+    background-color: white;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: calc(25% - 28px);
+    border-radius: 24px;
+    padding: 0 30px;
+}
+
+.section-company__list li img {
+    max-width: 100%;
+}
+
+.section-reviews {
+    padding: 77px 0 90px 0;
+}
+
+.section-reviews__star-rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.section-reviews__star-rating > div {
+    text-align: center;
+    width: 24px;
+}
+
+.section-reviews__slide-content {
+    border-radius: 24px;
+    background-color: white;
+    padding: 40px;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.section-reviews__title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 40px;
+}
+
+.section-reviews__name{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #2D2E2E;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-bottom: 17px;
+}
+
+.section-revies__avatar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40%;
+}
+
+.section-revies__avatar img{
+    max-width: 100%;
+}
+
+.section-reviews__description {
+    width: 60%;
+    padding: 38px 0 0 60px;
+}
+
+.section-reviews__description p {
+    color: #2D2E2E;
+}
+
+.section-reviews__text {
+    color: #929292;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 23px;
+}
+
+.section-reviews__text span{
+    margin-left: 12px;
+    padding-left: 12px;
+    border-left: 1px solid #D0D9EE;
+}
+
+.section-reviews__feedback {
+    color: #2D2E2E;
+    padding: 11px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #474B56;
+    background-color: white;
+    border-radius: 8px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    font-style: normal;
+    text-shadow: 0 0;
+}
+
+.section-reviews__feedback:hover {
+    border-color: #0C93F4;
+    color: #0C93F4;
+}
+
+@media screen and (max-width: 1599px) {
+    .promotion-section__list::before{
+        display: none;
+    }
+    .benefits-section {
+        padding: 80px 30px;
+    }
+}
+
+@media screen and (max-width: 1359px) {
+    .benefits-section__patform {
+        padding: 0 0 38px 0;
+    }
+    .benefits-section__list li{
+        padding: 0 40px;
+    }
+    .benefits-section__list {
+        padding: 30px;
+    }
+    .promotion-section {
+        padding-top: 40px;
+    }
+    .benefits-section__patform p {
+        padding-left: 30px;
+    }
+    .help-section__card li {
+        padding: 20px;
+        width: calc(33.33% - 16px);
+    }
+    .promotion-section__list > li {
+        padding-bottom: 90px;
+    }
+    .section-company__list li {
+        height: 140px;
+    }
+    .section-company {
+        padding: 60px 0;
+    }
+    .section-reviews {
+        padding: 60px 0 80px 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    h2 {
+        font-size: 34px;
+        line-height: 1.5;
+    }
+    h5 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .help-section {
+        padding: 60px 0;
+    }
+    h3 {
+        font-size: 34px;
+        line-height: 1.3;
+    }
+    .benefits-section__patform h3 span {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .benefits-section__list {
+        padding: 30px 0;
+    }
+    .benefits-section__list li {
+        padding: 0 30px;
+    }
+    .benefits-section {
+        padding: 60px 0px;
+    }
+    .promotion-section__box {
+        width: 60%;
+    }
+    .promotion-section__number {
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .promotion-section__picture {
+        width: 40%;
+        padding-left: 50px;
+    }
+    .promotion-section__description {
+        padding-right: 40px;
+    }
+    .promotion-section__list li:nth-of-type(2n) .promotion-section__description {
+        padding: 0 0px 0 40px;
+    }
+    .promotion-section__list li:nth-of-type(2n) .promotion-section__picture {
+        padding: 0 50px 0 0;
+    }
+    .promotion-section__number span {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .help-section__icon {
+        width: 50px;
+    }
+    .benefits-section__list {
+        margin: 0;
+    }
+    .section-reviews__name {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .slick-next {
+        right: 50%;
+        bottom: -60px;
+        top: auto;
+        margin-top: 0;
+        margin-right: -50px;
+    }
+    .slick-prev {
+        left: 50%;
+        bottom: -60px;
+        top: auto;
+        margin-top: 0;
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .help-section__card {
+        display: block;
+    }
+    .help-section__card li{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .section-reviews {
+        padding: 30px 0 80px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .benefits-section__patform {
+        display: block;
+    }
+    .benefits-section__patform h3{
+        width: 100%;
+    }
+    .benefits-section__patform p {
+        padding: 20px 0 0 0;
+    }
+    .wrapper {
+        padding: 0 20px;
+    }
+    .benefits-section {
+        padding: 40px 0;
+    }
+    .benefits-section__list {
+        display: block;
+        padding: 20px 0 0 0;
+    }
+    .benefits-section__list li {
+        width: 100%;
+        padding: 0 20px 30px 20px;
+        position: relative;
+    }
+    .benefits-section__list li::after {
+        height: 2px;
+        width: 48px;
+        right: 50%;
+        top: auto;
+        margin: 0 -24px 0 0;
+        bottom: 15px;
+    }
+    .promotion-section__list > li {
+        display: block;
+    }
+    .promotion-section__box {
+        width: 100%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding-bottom: 15px;
+    }
+    .promotion-section__picture {
+        width: 100%;
+    }
+    .promotion-section__description{
+        padding-right: 30px;
+    }
+    .promotion-section__list li:nth-of-type(2n) .promotion-section__box {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+    .promotion-section__list li:nth-of-type(2n) .promotion-section__description {
+        padding: 0 30px 0 0;
+    }
+    .promotion-section__list > li{
+        padding-bottom: 50px;
+    }
+    .section-company__list {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        padding-top: 20px;
+    }
+    .section-company__list li {
+        width: calc(50% - 10px);
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .section-reviews__title {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .section-reviews__feedback {
+        margin-top: 5px;
+    }
+    .section-reviews {
+        padding: 0 0 80px 0;
+    }
+    .section-reviews__slide-content {
+        padding: 20px;
+        display: block;
+    }
+    .section-revies__avatar {
+        width: 100%;
+    }
+    .section-reviews__description {
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+}
