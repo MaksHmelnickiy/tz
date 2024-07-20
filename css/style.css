@@ -780,4 +780,14 @@ p {
         width: 100%;
         padding: 20px 0 0 0;
     }
+    .promotion-section__list li:nth-of-type(2n) .promotion-section__picture, .promotion-section__picture {
+        padding: 0;
+    }
+    .help-section__job-advertisemen {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .help-section__job-advertisemen a {
+        margin: 5px 0 0 0;
+    }
 }
